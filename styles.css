@@ -1,0 +1,149 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url("images/pattern-background-desktop.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-blend-mode: darken;
+  color: hsl(224, 23%, 55%);
+}
+
+a:hover {
+  color: #766CF1;
+}
+
+.top-img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.card {
+  width: 500px;
+  margin: 5% auto;
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 35px hsl(224, 23%, 55%);
+}
+
+.card-body {
+  padding: 7%;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #000;
+}
+
+.card-text {
+  width: 70%;
+  margin: auto;
+}
+
+.rows {
+  margin: 5% 5% 1% 5%;
+  padding: 5%;
+  background-color: hsl(225, 100%, 98%);
+  background-blend-mode: darken;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.plan-img {
+  width: 45px;
+  height: 45px;
+  background-image: url("images/icon-music.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  background-blend-mode: darken;
+  float: left;
+  margin-right: 10px;
+}
+
+.plan-list {
+  position: relative;
+  left: 135px;
+  bottom: 13px;
+}
+
+.btn {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 11%;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 7px 25px hsl(224, 23%, 55%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #766CF1;
+}
+
+.btn-light{
+  color:  hsl(224, 23%, 55%);
+}
+
+.btn-light:hover {
+  font-weight: 700;
+}
+
+.plan-text{
+  display: inline-block;
+  font-size: 1rem;
+}
+
+@media(max-width: 576px) {
+  .card {
+    width: 350px;
+    margin: 15% 8%;
+  }
+
+  .card-title{
+    font-size: 1.5rem;
+  }
+
+  .card-text{
+    width: 80%;
+  }
+
+  .card-body {
+    padding: 7%;
+  }
+
+  body {
+    background-image: url("images/pattern-background-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .row {
+    margin: 2%;
+    padding: 0;
+  }
+
+  .plan-list {
+    position: relative;
+    left: 40px;
+    bottom: 13px;
+  }
+
+  .plan-text{
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+}
